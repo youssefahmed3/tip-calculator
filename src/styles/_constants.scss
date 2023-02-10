@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@700&display=swap');
+
+/* font */
+
+$pr-font: 'Space Mono', monospace;
+
+/* Colors */
+
+$cr-cyan-900: #00494d;
+$cr-cyan-800: #26c0ab;
+$cr-cyan-700: #5e7a7d;
+$cr-cyan-600: #7f9c9f;
+$cr-cyan-500: #c5e4e7;
+$cr-cyan-400: #f4fafa;
+$cr-cyan-300: #f3f8fb;
+$white: #ffffff;
+
+/* utils */
+$radius-1: 12px;
+
+
+/* query medias */
+
+$laptop: 1000px;
+$mobile: 500px;

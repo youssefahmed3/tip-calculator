@@ -1,0 +1,17 @@
+@import "../../styles/constants";
+
+.input-field {
+    border-radius: 6px;
+    font-size: 18px;
+    height: 40px;
+    background: $cr-cyan-300;
+    border: none;
+    outline: none;
+    padding: 0.5rem 1rem;
+    text-align: end;
+    color: $cr-cyan-700;
+    &:hover,
+    &:focus {
+        border: 3px solid $cr-cyan-800;
+    }
+}

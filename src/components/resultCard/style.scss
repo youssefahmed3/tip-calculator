@@ -1,0 +1,25 @@
+@import "../../styles/constants";
+
+.card-container {
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    // gap: 20px;
+
+    .left-side {
+        color: $white;
+        .title {
+            font-size: 14px;
+        }
+        .subtitle {
+            color: $cr-cyan-600;
+            font-size: 12px;
+        }
+    }
+
+    .right-side {
+        color: $cr-cyan-800;
+        font-size: 35px;
+    }
+}

@@ -1,0 +1,42 @@
+@import "../../styles/constants";
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 5px;
+
+    .title {
+     color: $cr-cyan-700;
+     font-size: 14px;   
+    }
+
+    .input-container {
+        width: 100%;
+        height: 40px;
+        display: flex;
+        align-items: center;
+        background: $cr-cyan-300;
+        border-radius: 6px;
+        padding: 0 1rem;
+        overflow: hidden;
+        
+        &:hover, &:focus {
+            border: 3px solid $cr-cyan-800;
+        }
+        
+        .input-field {
+           
+            flex-grow: 1;
+            font-size: 18px;
+            background: $cr-cyan-300;
+            border: none;
+            outline: none;
+            padding: 0.5rem;
+            text-align: end;
+            color: $cr-cyan-700;
+            
+        }
+       
+    }
+}
